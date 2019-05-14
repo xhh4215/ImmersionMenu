@@ -32,4 +32,11 @@ class MainActivity : AppCompatActivity() {
         actionbar?.hide()
 
     }
+
+    /***
+     * 加入以上的逻辑就是实现沉浸式菜单的方法
+     */
+    override fun onWindowFocusChanged(hasFocus: Boolean) {
+        super.onWindowFocusChanged(hasFocus)
+    }
 }
