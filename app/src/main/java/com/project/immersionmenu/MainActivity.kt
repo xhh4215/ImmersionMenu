@@ -23,7 +23,8 @@ class MainActivity : AppCompatActivity() {
          *  xor() 位异或
          *  inv() 位非
          */
-        val option = View.SYSTEM_UI_FLAG_FULLSCREEN and (View.SYSTEM_UI_FLAG_LAYOUT_STABLE)
+//        val option = View.SYSTEM_UI_FLAG_FULLSCREEN and (View.SYSTEM_UI_FLAG_LAYOUT_STABLE)
+        val option = View.SYSTEM_UI_FLAG_FULLSCREEN and (View.SYSTEM_UI_FLAG_HIDE_NAVIGATION)
         decor.systemUiVisibility = option
         window.setStatusBarColor(Color.TRANSPARENT)
         //设置actionbar的可见行
